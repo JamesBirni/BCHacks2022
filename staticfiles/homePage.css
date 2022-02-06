@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* .hero-input {
+    width: 80%;
+    height: 50px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  } */
+  
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  
+    /* Set a specific height */
+    height: 75vh;
+    width: 100vw;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-subheading {
+    font-size: 24px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  button {
+    padding: 0.4rem;
+    background-color: gold;
+    color: white;
+    border: none;
+  }
+  .hero-btn {
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+  }
+  .login-btn {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 4rem;
+  }
+  
